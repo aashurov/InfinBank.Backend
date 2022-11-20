@@ -1,6 +1,7 @@
 # InfinBank.Backend
-Тестовые пользователи для выполнение "endpoint"ов
+Тестовые пользователи и адрес сервера для выполнение "endpoint"ов
 
+- Url: http://ashurov.ml
 - Admin 
 	* Login: admin@gmail.com
 	* Password: Qwertyruru20@@
