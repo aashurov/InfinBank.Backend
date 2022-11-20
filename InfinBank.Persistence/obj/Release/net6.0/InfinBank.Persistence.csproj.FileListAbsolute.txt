@@ -1,0 +1,17 @@
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Persistence.deps.json
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Persistence.dll
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Persistence.pdb
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Application.dll
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Domain.dll
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Application.pdb
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/bin/Release/net6.0/InfinBank.Domain.pdb
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.csproj.AssemblyReference.cache
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.AssemblyInfoInputs.cache
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.AssemblyInfo.cs
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.csproj.CoreCompileInputs.cache
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.csproj.CopyComplete
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.dll
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/refint/InfinBank.Persistence.dll
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/InfinBank.Persistence.pdb
+/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Persistence/obj/Release/net6.0/ref/InfinBank.Persistence.dll

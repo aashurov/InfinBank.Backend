@@ -1,0 +1,845 @@
+11/20/2022 11:21:22 AMSuccess: {
+  "Id": 1,
+  "UserId": "73676cca-a06c-45f6-b68c-a3b9f3e5578b",
+  "Token": "RQPBSQVI1EKL9D5V13XUVGSL3HREVAPA269bf0bd617-406e-4a1c-a273-4cec9099074b",
+  "JwtId": "5d439c6d-61bf-4a15-8c78-806752c66c80",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T11:21:22.663438+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 12:21:58 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 75.36,
+  "Radius": 12.0,
+  "DateCreated": "2022-11-20T12:21:58.279592+05:00",
+  "DateUpdated": "2022-11-20T12:21:58.279698+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:33:47 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 75.36,
+  "Radius": 12.0,
+  "DateCreated": "2022-11-20T12:33:47.203623+05:00",
+  "DateUpdated": "2022-11-20T12:33:47.20369+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:35:05 PM Success: UpdateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 1381.6000000000001,
+  "Radius": 220.0,
+  "DateCreated": "2022-11-20T12:33:47.203623",
+  "DateUpdated": "2022-11-20T12:35:05.175351+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:38:16 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 75.36,
+  "Radius": 12.0,
+  "DateCreated": "2022-11-20T12:38:16.528995+05:00",
+  "DateUpdated": "2022-11-20T12:38:16.529053+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:38:31 PM Success: UpdateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 1463.24,
+  "Radius": 233.0,
+  "DateCreated": "2022-11-20T12:38:16.528995",
+  "DateUpdated": "2022-11-20T12:38:31.325767+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:39:52 PM Success: CreateCircleSquareCommandHandler {
+  "Square": 144.44,
+  "Circumference": 0.0,
+  "Radius": 23.0,
+  "DateCreated": "2022-11-20T12:39:52.279845+05:00",
+  "DateUpdated": "2022-11-20T12:39:52.279899+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:40:07 PM Success: UpdateCircleSquareCommandHandler {
+  "Square": 351.68,
+  "Circumference": 0.0,
+  "Radius": 56.0,
+  "DateCreated": "2022-11-20T12:39:52.279845",
+  "DateUpdated": "2022-11-20T12:40:07.298268+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:41:15 PM Success: CreateCircleSquareCommandHandler {
+  "Square": 766.1600000000001,
+  "Circumference": 0.0,
+  "Radius": 122.0,
+  "DateCreated": "2022-11-20T12:41:15.40983+05:00",
+  "DateUpdated": "2022-11-20T12:41:15.409883+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:41:33 PM Success: UpdateCircleSquareCommandHandler {
+  "Square": 2160.32,
+  "Circumference": 0.0,
+  "Radius": 344.0,
+  "DateCreated": "2022-11-20T12:41:15.40983",
+  "DateUpdated": "2022-11-20T12:41:33.964126+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:42:04 PM Success: DeleteCircleSquareCommandHandler {
+  "Square": 2160.32,
+  "Circumference": 0.0,
+  "Radius": 344.0,
+  "DateCreated": "2022-11-20T12:41:15.40983",
+  "DateUpdated": "2022-11-20T12:41:33.964126",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:42:21 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 12.0,
+  "Width": 34.0,
+  "Perimeter": 92.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T12:42:21.688663+05:00",
+  "DateUpdated": "2022-11-20T12:42:21.688665+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 12:42:23 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 12.0,
+  "Width": 34.0,
+  "Perimeter": 92.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T12:42:23.031397+05:00",
+  "DateUpdated": "2022-11-20T12:42:23.031399+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 2,
+  "DomainEvents": []
+}
+11/20/2022 12:42:47 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 12.0,
+  "Width": 34.0,
+  "Perimeter": 92.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T12:42:47.822286+05:00",
+  "DateUpdated": "2022-11-20T12:42:47.822289+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 3,
+  "DomainEvents": []
+}
+11/20/2022 1:52:20 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 75.36,
+  "Radius": 12.0,
+  "DateCreated": "2022-11-20T13:52:20.040375+05:00",
+  "DateUpdated": "2022-11-20T13:52:20.040439+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 1:52:35 PM Success: UpdateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 1463.24,
+  "Radius": 233.0,
+  "DateCreated": "2022-11-20T13:52:20.040375",
+  "DateUpdated": "2022-11-20T13:52:35.286537+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 1:52:45 PM Success: DeleteCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 1463.24,
+  "Radius": 233.0,
+  "DateCreated": "2022-11-20T13:52:20.040375",
+  "DateUpdated": "2022-11-20T13:52:35.286537",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 1:53:27 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 23.0,
+  "Width": 34.0,
+  "Perimeter": 114.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T13:53:27.797674+05:00",
+  "DateUpdated": "2022-11-20T13:53:27.797676+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 1:53:43 PM Success: UpdateRectanglePerimeterCommandHandler {
+  "Length": 233.0,
+  "Width": 34.0,
+  "Perimeter": 534.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T13:53:27.797674",
+  "DateUpdated": "2022-11-20T13:53:43.135669+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 2:40:07 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 12.0,
+  "BSide": 23.0,
+  "CSide": 0.0,
+  "Perimeter": 69.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T14:40:07.874325+05:00",
+  "DateUpdated": "2022-11-20T14:40:07.874398+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 2:40:40 PM Success: UpdateTrianglePerimeterCommandHandler {
+  "ASide": 23.0,
+  "BSide": 34.0,
+  "CSide": 0.0,
+  "Perimeter": 513.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T14:40:07.874325",
+  "DateUpdated": "2022-11-20T14:40:40.108478+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 2:54:47 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 75.36,
+  "Radius": 12.0,
+  "DateCreated": "2022-11-20T14:54:47.431174+05:00",
+  "DateUpdated": "2022-11-20T14:54:47.431241+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 2:55:20 PM Success: UpdateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 753.6,
+  "Radius": 120.0,
+  "DateCreated": "2022-11-20T14:54:47.431174",
+  "DateUpdated": "2022-11-20T14:55:20.910476+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 2:55:47 PM Success: CreateCircleSquareCommandHandler {
+  "Square": 62.800000000000004,
+  "Circumference": 0.0,
+  "Radius": 10.0,
+  "DateCreated": "2022-11-20T14:55:47.217011+05:00",
+  "DateUpdated": "2022-11-20T14:55:47.217015+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 2,
+  "DomainEvents": []
+}
+11/20/2022 2:55:57 PM Success: UpdateCircleSquareCommandHandler {
+  "Square": 1381.6000000000001,
+  "Circumference": 753.6,
+  "Radius": 220.0,
+  "DateCreated": "2022-11-20T14:54:47.431174",
+  "DateUpdated": "2022-11-20T14:55:57.25287+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:25:12 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 10.0,
+  "Width": 10.0,
+  "Perimeter": 40.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:25:12.030542+05:00",
+  "DateUpdated": "2022-11-20T15:25:12.030605+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:25:23 PM Success: CreateRectangleSquareCommandHandler {
+  "Length": 10.0,
+  "Width": 10.0,
+  "Perimeter": 0.0,
+  "Square": 100.0,
+  "DateCreated": "2022-11-20T15:25:23.366798+05:00",
+  "DateUpdated": "2022-11-20T15:25:23.366801+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 2,
+  "DomainEvents": []
+}
+11/20/2022 3:25:39 PM Success: UpdateRectanglePerimeterCommandHandler {
+  "Length": 10.0,
+  "Width": 10.0,
+  "Perimeter": 40.0,
+  "Square": 100.0,
+  "DateCreated": "2022-11-20T15:25:12.030542",
+  "DateUpdated": "2022-11-20T15:25:39.530578+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:25:50 PM Success: DeleteRectanglePerimeterCommandHandler {
+  "Length": 10.0,
+  "Width": 10.0,
+  "Perimeter": 40.0,
+  "Square": 100.0,
+  "DateCreated": "2022-11-20T15:25:12.030542",
+  "DateUpdated": "2022-11-20T15:25:39.530578",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:29:53 PM Success: CreateCircleSquareCommandHandler {
+  "Square": 62.800000000000004,
+  "Circumference": 0.0,
+  "Radius": 10.0,
+  "DateCreated": "2022-11-20T15:29:53.882446+05:00",
+  "DateUpdated": "2022-11-20T15:29:53.882507+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:30:07 PM Success: UpdateCircleSquareCommandHandler {
+  "Square": 125.60000000000001,
+  "Circumference": 0.0,
+  "Radius": 20.0,
+  "DateCreated": "2022-11-20T15:29:53.882446",
+  "DateUpdated": "2022-11-20T15:30:07.597786+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:30:14 PM Success: DeleteCircleSquareCommandHandler {
+  "Square": 125.60000000000001,
+  "Circumference": 0.0,
+  "Radius": 20.0,
+  "DateCreated": "2022-11-20T15:29:53.882446",
+  "DateUpdated": "2022-11-20T15:30:07.597786",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:31:27 PM Success: CreateSquareAreaCommandHandler {
+  "Side": 10.0,
+  "Perimeter": 0.0,
+  "Area": 100.0,
+  "DateCreated": "2022-11-20T15:31:27.35402+05:00",
+  "DateUpdated": "2022-11-20T15:31:27.354075+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:31:44 PM Success: UpdateRectanglePerimeterCommandHandler {
+  "Side": 220.0,
+  "Perimeter": 0.0,
+  "Area": 48400.0,
+  "DateCreated": "2022-11-20T15:31:27.35402",
+  "DateUpdated": "2022-11-20T15:31:44.150812+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:33:01 PM Success: CreateSquarePerimeterCommandHandler {
+  "Side": 10.0,
+  "Perimeter": 40.0,
+  "Area": 0.0,
+  "DateCreated": "2022-11-20T15:33:01.740727+05:00",
+  "DateUpdated": "2022-11-20T15:33:01.740785+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:33:12 PM Success: UpdateSquarePerimeterCommandHandler {
+  "Side": 120.0,
+  "Perimeter": 480.0,
+  "Area": 0.0,
+  "DateCreated": "2022-11-20T15:33:01.740727",
+  "DateUpdated": "2022-11-20T15:33:12.34351+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:33:44 PM Success: CreateTriangleAreaCommandHandler {
+  "ASide": 20.0,
+  "BSide": 20.0,
+  "CSide": 0.0,
+  "Perimeter": 0.0,
+  "Square": 1959.5917942265426,
+  "DateCreated": "2022-11-20T15:33:44.686514+05:00",
+  "DateUpdated": "2022-11-20T15:33:44.686519+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:33:57 PM Success: UpdateTriangleAreaCommandHandler {
+  "ASide": 20.0,
+  "BSide": 30.0,
+  "CSide": 0.0,
+  "Perimeter": 0.0,
+  "Square": 3464.1016151377544,
+  "DateCreated": "2022-11-20T15:33:44.686514",
+  "DateUpdated": "2022-11-20T15:33:57.929483+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:34:05 PM Success: DeleteTriangleAreaCommandHandler {
+  "ASide": 20.0,
+  "BSide": 30.0,
+  "CSide": 0.0,
+  "Perimeter": 0.0,
+  "Square": 3464.1016151377544,
+  "DateCreated": "2022-11-20T15:33:44.686514",
+  "DateUpdated": "2022-11-20T15:33:57.929483",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:34:15 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 20.0,
+  "BSide": 20.0,
+  "CSide": 0.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:34:15.453457+05:00",
+  "DateUpdated": "2022-11-20T15:34:15.453459+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 2,
+  "DomainEvents": []
+}
+11/20/2022 3:34:44 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 20.0,
+  "BSide": 20.0,
+  "CSide": 0.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:34:44.273899+05:00",
+  "DateUpdated": "2022-11-20T15:34:44.273902+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 3,
+  "DomainEvents": []
+}
+11/20/2022 3:35:30 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 20.0,
+  "BSide": 20.0,
+  "CSide": 0.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:35:30.00307+05:00",
+  "DateUpdated": "2022-11-20T15:35:30.003073+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 4,
+  "DomainEvents": []
+}
+11/20/2022 3:38:00 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 10.0,
+  "BSide": 20.0,
+  "CSide": 30.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:38:00.348862+05:00",
+  "DateUpdated": "2022-11-20T15:38:00.34892+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:38:18 PM Success: UpdateTrianglePerimeterCommandHandler {
+  "ASide": 20.0,
+  "BSide": 20.0,
+  "CSide": 30.0,
+  "Perimeter": 70.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:38:00.348862",
+  "DateUpdated": "2022-11-20T15:38:18.1035+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:40:16 PM Success: CreateTrianglePerimeterCommandHandler {
+  "ASide": 10.0,
+  "BSide": 20.0,
+  "CSide": 30.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:40:16.019899+05:00",
+  "DateUpdated": "2022-11-20T15:40:16.019952+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:40:30 PM Success: UpdateTrianglePerimeterCommandHandler {
+  "ASide": 20.0,
+  "BSide": 30.0,
+  "CSide": 40.0,
+  "Perimeter": 90.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T15:40:16.019899",
+  "DateUpdated": "2022-11-20T15:40:30.145779+05:00",
+  "CreatedBy": null,
+  "ModifiedBy": null,
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 3:51:39 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "9RMKTRC0GNJ8JCLZT9JKZUOQ04TZ468MTKCcf7891fc-d422-4671-83e9-d4e0d8ac1481",
+  "JwtId": "ea0a19c5-7986-4f87-bfde-13175497a4e3",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T15:51:38.919684+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:01:26 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "9P77FTV4YLR1X8PPFP8VHE1INWI0HWUDPXSb73adc07-a277-4f75-ba9a-f631ac99addb",
+  "JwtId": "c8ecc267-3e85-4e44-8602-56eb77379ac5",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:01:26.532718+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:05:20 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "IO9UFWPIYVR27EZ3X65GNT2QZUWUW3KR69Kb9f99140-938b-4c35-9050-cfeeab769702",
+  "JwtId": "632a82fa-71ca-46ad-8e02-e85f67c72bef",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:05:20.329062+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:19:12 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "VQR6X1EC99BO2A12Z7O2JPON8D6V5LYUX9O8e3233b4-d7e1-408b-a6f0-a20f78e4e85a",
+  "JwtId": "d4ff34c5-c158-4557-98e6-b1bfb012b992",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:19:12.340347+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:28:29 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "BN1JJC3ISI2BS0X1GDM0TMF09F8GI9PJM5Hd517ab6d-71c1-4e75-b7b7-f65de1b8a9a9",
+  "JwtId": "6e1289bc-e612-4f72-a498-a45b7da027a8",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:28:29.452967+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:30:36 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "HH2ISZN90Z3JS9JD8O7AM83TQH2RSFZ6WDM415ee8ac-6138-4f36-8bae-3c27f7d82f6f",
+  "JwtId": "9997c915-7221-469c-b480-87c84a56d469",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:30:36.470989+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 4:32:24 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "UGSCTM7TC7LXGRV556EY3NFZMTXXVYCBYSNb97f8335-2666-44a8-ba5a-e382f0f8c047",
+  "JwtId": "188a06b2-99ab-481a-9c7b-24041811e90c",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T16:32:24.467858+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:15:07 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "RDHPLKX813Z5I9CMOMBLFALDM4VRWH04WL8ba82ff87-d9e8-42fc-a416-c8262b9f19fd",
+  "JwtId": "f92f5905-7b42-41da-95af-a0e7a1d23df8",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:15:07.3799+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:20:25 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "GI5AHK42ZPE5EE8178TUQJAFCWYO92417X6fc056b1f-3908-43ae-8db2-b0870e0935e1",
+  "JwtId": "34f1abba-9afe-45ce-a798-227b065cf169",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:20:25.237047+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:24:53 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "7VEH0ZF2TTMYUU9Y1YW5NQPCNEY1DGJEKZPd9b45f08-4aae-4ecd-90c0-ae795554c892",
+  "JwtId": "735540a2-a149-4bac-aefe-076a5a93398c",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:24:53.816007+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:27:38 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "Y9JR10MSLT2456NTOM7MO5MKW7X1PGCW47Vcf1d223b-e01c-4301-a200-1f6b7ae774e9",
+  "JwtId": "68ed0346-c35a-44ab-8e78-688229099a55",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:27:38.149746+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:38:09 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "HR439M9NO6T45ASSMKIIR0YEAW78I99ZF8Zc1ace37e-9d2f-4590-a4a3-b2a82eb3de9e",
+  "JwtId": "452855ff-0dbd-405c-bb23-6e85a0420bfd",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:38:09.088064+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 7:39:43 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "BCCZTLU7RYU3BN6N55THF7T8RICLB1MDX9Q535a4581-3882-44bf-9b8c-f4579d342133",
+  "JwtId": "9409bb21-ca03-494f-b1b7-2339ed62bb1c",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T19:39:43.323884+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:15:40 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "V9RJOXKFXKU8L9CZHU2UCXEAQT9J2XYQIGIbf8c9977-df4b-4777-8e55-731c293c723c",
+  "JwtId": "0426ad56-5bae-45be-83aa-ad0a949b1332",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:15:40.191575+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:20:27 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "E76TH6XW5DPH22X8H6G4HI6WA39C8EAAWLS3a768d96-919f-4620-9d1c-8036b8820191",
+  "JwtId": "1dd0abe1-f104-450f-bb7c-920b4956700e",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:20:27.3919+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:20:42 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 62.800000000000004,
+  "Radius": 10.0,
+  "DateCreated": "2022-11-20T22:20:42.505933+05:00",
+  "DateUpdated": "2022-11-20T22:20:42.505989+05:00",
+  "CreatedBy": "admin@gmail.com",
+  "ModifiedBy": "admin@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:42:37 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "30a8f9cc-8d37-4d93-ab2f-774428387e4a",
+  "Token": "3IPQL3I0OKLDCCL38GCIQ00GZVWENHOMV6166471353-27ef-44ae-bf34-aa3a2508db67",
+  "JwtId": "13fb4fd0-2947-4647-b63b-834b40a71523",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:42:37.141957+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:42:53 PM Success: CreateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 62.800000000000004,
+  "Radius": 10.0,
+  "DateCreated": "2022-11-20T22:42:53.782541+05:00",
+  "DateUpdated": "2022-11-20T22:42:53.782599+05:00",
+  "CreatedBy": "admin@gmail.com",
+  "ModifiedBy": "admin@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:43:04 PM Success: UpdateCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 125.60000000000001,
+  "Radius": 20.0,
+  "DateCreated": "2022-11-20T22:42:53.782541",
+  "DateUpdated": "2022-11-20T22:43:04.603936+05:00",
+  "CreatedBy": "admin@gmail.com",
+  "ModifiedBy": "admin@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:43:11 PM Success: DeleteCircleCircumferenceCommandHandler {
+  "Square": 0.0,
+  "Circumference": 125.60000000000001,
+  "Radius": 20.0,
+  "DateCreated": "2022-11-20T22:42:53.782541",
+  "DateUpdated": "2022-11-20T22:43:04.603936",
+  "CreatedBy": "admin@gmail.com",
+  "ModifiedBy": "admin@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:48:33 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "cadaa51d-ddb3-4564-a8c5-79e80c98a032",
+  "Token": "WU1LNMVYIZVT8IB464KLQWP59IPOBIA90TA7cfec359-02af-440b-8b94-a770976e5a8b",
+  "JwtId": "419f32fd-73ac-41f0-b1f0-5ee803c52cba",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:48:33.166894+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:48:51 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 20.0,
+  "Width": 30.0,
+  "Perimeter": 100.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T22:48:51.121635+05:00",
+  "DateUpdated": "2022-11-20T22:48:51.121692+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:51:11 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "cadaa51d-ddb3-4564-a8c5-79e80c98a032",
+  "Token": "4JZSVIFS7ECRM4JSBXSQRT6VHNDI5BLEGH544e1d4cf-5992-4682-aed9-53e889e4a8f4",
+  "JwtId": "9c35e275-2652-4a76-93b6-042a27cfad70",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:51:11.408412+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:51:28 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 10.0,
+  "Width": 20.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T22:51:28.553554+05:00",
+  "DateUpdated": "2022-11-20T22:51:28.553625+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:52:03 PM Success: UpdateRectanglePerimeterCommandHandler {
+  "Length": 30.0,
+  "Width": 40.0,
+  "Perimeter": 140.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T22:51:28.553554",
+  "DateUpdated": "2022-11-20T22:52:03.279773+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:52:13 PM Success: CreateRectangleSquareCommandHandler {
+  "Length": 20.0,
+  "Width": 30.0,
+  "Perimeter": 0.0,
+  "Square": 600.0,
+  "DateCreated": "2022-11-20T22:52:13.362608+05:00",
+  "DateUpdated": "2022-11-20T22:52:13.362612+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 2,
+  "DomainEvents": []
+}
+11/20/2022 10:53:07 PM Success: <Handle>d__3 {
+  "Id": 1,
+  "UserId": "cadaa51d-ddb3-4564-a8c5-79e80c98a032",
+  "Token": "W75YEFRUDU3SHHF6XIL6RY4BT4HZPR4WP0Lbacb5aec-fd08-48a8-9fdd-e10bb8e54149",
+  "JwtId": "00464cb7-8edf-4c39-8945-88f572f67088",
+  "IsUsed": false,
+  "IsRevoked": false,
+  "AddedDateTime": "2022-11-20T22:53:07.184654+05:00",
+  "ExpiryDateTime": "0001-01-01T00:00:00"
+}
+11/20/2022 10:53:22 PM Success: CreateRectanglePerimeterCommandHandler {
+  "Length": 10.0,
+  "Width": 20.0,
+  "Perimeter": 60.0,
+  "Square": 0.0,
+  "DateCreated": "2022-11-20T22:53:22.079139+05:00",
+  "DateUpdated": "2022-11-20T22:53:22.079201+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}
+11/20/2022 10:54:40 PM Success: CreateTriangleAreaCommandHandler {
+  "ASide": 20.0,
+  "BSide": 30.0,
+  "CSide": 40.0,
+  "Perimeter": 0.0,
+  "Square": 4347.413023856831,
+  "DateCreated": "2022-11-20T22:54:40.745113+05:00",
+  "DateUpdated": "2022-11-20T22:54:40.745116+05:00",
+  "CreatedBy": "user@gmail.com",
+  "ModifiedBy": "user@gmail.com",
+  "Id": 1,
+  "DomainEvents": []
+}

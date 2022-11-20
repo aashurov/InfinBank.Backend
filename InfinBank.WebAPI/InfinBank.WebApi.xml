@@ -1,0 +1,1381 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InfinBank.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:InfinBank.WebApi.Controllers.AuthenticationController">
+            <summary>
+            AuthUser
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.AuthenticationController.#ctor(Microsoft.AspNetCore.Identity.UserManager{InfinBank.Domain.Entities.UserEntities.User},Microsoft.Extensions.Configuration.IConfiguration,AutoMapper.IMapper,Microsoft.IdentityModel.Tokens.TokenValidationParameters,InfinBank.Application.Interfaces.IInfinBankDBContext,Microsoft.AspNetCore.Identity.RoleManager{InfinBank.Domain.Entities.UserEntities.Role})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="userManager"></param>
+            <param name="configuration"></param>
+            <param name="mapper"></param>
+            <param name="tokenValidationParams"></param>
+            <param name="infinBankDBContext"></param>
+            <param name="roleManager"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.AuthenticationController.Register(InfinBank.WebApi.Models.AuthManager.UserRegisterDto)">
+            <summary>
+            Register
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.AuthenticationController.Login(InfinBank.WebApi.Models.AuthManager.UserLoginDto)">
+            <summary>
+            Login
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.AuthenticationController.RefreshToken(InfinBank.WebApi.Models.AuthManager.TokenRequest)">
+            <summary>
+            Refresh Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.BaseController">
+            <summary>
+            BaseController
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Controllers.BaseController.Mediator">
+            <summary>
+            IMediator
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Controllers.BaseController.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.CircleCircumferenceController">
+            <summary>
+            Circle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class CircleCircumferenceController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.GetCircumferences">
+            <summary>
+            Get the list of calculated and saved circumference only for Administrator
+            </summary>
+            <remarks>
+            Sample request: 
+            </remarks>
+            <returns>
+            Return CircleCircumferenceListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+            <responce code="404">Not Found</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.GetCircumference(System.Int32)">
+            <summary>
+            Get details of circumference by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Circumference Id (int)</param>
+            <returns>
+            Return CircleCircumferenceDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.CalculateCircumference(InfinBank.WebApi.Models.Circles.CreateCircleCircumferenceDto)">
+            <summary>
+            Calculate and save to database cisrcle circumference only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createCircleCircumferenceDto">CreateCircleCircumferenceDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.Update(InfinBank.WebApi.Models.Circles.UpdateCircleCircumferenceDto)">
+            <summary>
+            Update circle circumference by id only for Administrator
+            </summary>
+            <param name="updateCircleCircumferenceDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleCircumferenceController.Delete(System.Int32)">
+            <summary>
+            Delete circle circumference by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the circle circumference</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.CircleSquareController">
+            <summary>
+            Circle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class CircleSquareController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.GetSquares">
+            <summary>
+            Get the list of calculated and saved squares only for Administrator
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return CircleSquareListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.GetSquare(System.Int32)">
+            <summary>
+            Get details of square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Square Id (int)</param>
+            <returns>
+            Return CircleSquareDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.CalculateSquare(InfinBank.WebApi.Models.Circles.CreateCircleSquareDto)">
+            <summary>
+            Calculate and save to database cisrcle square only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createCircleSquareDto">CreateCircleSquareDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.Update(InfinBank.WebApi.Models.Circles.UpdateCircleSquareDto)">
+            <summary>
+            Update circle Square by id only for Administrator
+            </summary>
+            <param name="updateCircleSquareDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.CircleSquareController.Delete(System.Int32)">
+            <summary>
+            Delete circle square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the circle square</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.RectanglePerimeterController">
+            <summary>
+            Rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class RectanglePerimeterController only for User
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.GetPerimetres">
+            <summary>
+            Get the list of calculated and saved perimetres
+            </summary>
+            <remarks>
+            Sample request: http://localhost:..../GetPerimetres
+            </remarks>
+            <returns>
+            Return RectanglePerimeterListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.GetPerimeter(System.Int32)">
+            <summary>
+            Get details of perimeter by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Square Id (int)</param>
+            <returns>
+            Return RectanglePerimeterDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.CalculatePerimeter(InfinBank.WebApi.Models.Circles.CreateRectanglePerimeterDto)">
+            <summary>
+            Calculate and save to database rectangle perimeter only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createRectanglePerimeterDto">CreateRectanglePerimeterDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.Update(InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto)">
+            <summary>
+            Update pectangle perimeter by id only for User
+            </summary>
+            <param name="updateRectanglePerimeterDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectanglePerimeterController.Delete(System.Int32)">
+            <summary>
+            Delete rectangle perimeter by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the rectangle perimeter</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.RectangleSquareController">
+            <summary>
+            Rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class RectangleSquareController 
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.GetSquares">
+            <summary>
+            Get the list of calculated and saved squares of rectanlge only for User
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return RectangleSquareListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.GetSquare(System.Int32)">
+            <summary>
+            Get details of square by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Square Id (int)</param>
+            <returns>
+            Return RectangleSquareDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.CalculateSquare(InfinBank.WebApi.Models.Circles.CreateRectangleSquareDto)">
+            <summary>
+            Calculate and save to dattabase Rectangle square only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createRectangleSquareDto">CreateRectangleSquareDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.Update(InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto)">
+            <summary>
+            Update rectangle square by id only for User
+            </summary>
+            <param name="updateRectangleSquareDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.RectangleSquareController.Delete(System.Int32)">
+            <summary>
+            Delete rectangle square by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the rectangle square</param>s
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.SquareAreaController">
+            <summary>
+            Square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class SquareAreaController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.GetAreas">
+            <summary>
+            Get the list of calculated and saved areas of square only for Administrator
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return SquareAreaListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.GetArea(System.Int32)">
+            <summary>
+            Get details area of square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Area Id (int)</param>
+            <returns>
+            Return SquareAreaDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.CalculateArea(InfinBank.WebApi.Models.Squares.CreateSquareAreaDto)">
+            <summary>
+            Calculate and save to database square area only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createSquareAreaDto">CreateSquareAreaDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.Update(InfinBank.WebApi.Models.Squares.UpdateSquareAreaDto)">
+            <summary>
+            Update area of square by id only for Administrator
+            </summary>
+            <param name="updateSquareAreaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquareAreaController.Delete(System.Int32)">
+            <summary>
+            Delete area of square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the square area</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.SquarePerimeterController">
+            <summary>
+            Square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class CircleController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.GetPerimetres">
+            <summary>
+            Get the list of calculated and saved perimetres of square only for Administrator
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return SquarePerimeterListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.GetPerimeter(System.Int32)">
+            <summary>
+            Get details perimeter of square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Perimeter Id (int)</param>
+            <returns>
+            Return SquarePerimeterDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.CalculatePerimeter(InfinBank.WebApi.Models.Squares.CreateSquarePerimeterDto)">
+            <summary>
+            Calculate and save to database square perimeter only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createSquarePerimeterDto">CreateSquareAreaDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.Update(InfinBank.WebApi.Models.Circles.UpdateSquarePerimeterDto)">
+            <summary>
+            Update perimeter of square by id only for Administrator
+            </summary>
+            <param name="updateSquarePerimeterDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.SquarePerimeterController.Delete(System.Int32)">
+            <summary>
+            Delete perimeter of square by id only for Administrator
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the circle square</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.TriangleAreaController">
+            <summary>
+            Triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class TriangleAreaController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.GetAreas">
+            <summary>
+            Get the list of calculated and saved areas of triangle only for User
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return TriangleAreaListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.GetArea(System.Int32)">
+            <summary>
+            Get details area of triangle by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Area Id (int)</param>
+            <returns>
+            Return TriangleAreaDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.CalculateArea(InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto)">
+            <summary>
+            Calculate and save to database triangle area only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createTriangleAreaDto">CreateTriangleAreaDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.Update(InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto)">
+            <summary>
+            Update area of triangle by id only for User
+            </summary>
+            <param name="updateTriangleAreaDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TriangleAreaController.Delete(System.Int32)">
+            <summary>
+            Delete area of triangle by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the triangle area</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.Controllers.TrianglePerimeterController">
+            <summary>
+            Triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.#ctor(AutoMapper.IMapper)">
+            <summary>
+            Constructor for class TrianglePerimeterController
+            </summary>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.GetPerimetres">
+            <summary>
+            Get the list of calculated and saved perimetres of triangle only for User
+            </summary>
+            <remarks>
+            Sample request:
+            </remarks>
+            <returns>
+            Return TrianglePerimetreListVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.GetPerimeter(System.Int32)">
+            <summary>
+            Get details perimeter of triangle by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Perimeter Id (int)</param>
+            <returns>
+            Return TrianglePerimeterDetailsVm
+            </returns>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.CalculatePerimeter(InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto)">
+            <summary>
+            Calculate and save to database triangle perimeter only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <returns>
+            Return Id (int)
+            </returns>
+            <param name="createTrianglePerimeterDto">CreateTrianglePerimeterDto object</param>
+            <responce code="200">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.Update(InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto)">
+            <summary>
+            Update perimeter of triangle by id only for User
+            </summary>
+            <param name="updateTrianglePerimeterDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:InfinBank.WebApi.Controllers.TrianglePerimeterController.Delete(System.Int32)">
+            <summary>
+            Delete perimeter of triangle by id only for User
+            </summary>
+            <remarks>
+            </remarks>
+            <param name="Id">Id of the triangle perimeter</param>
+            <returns>
+            Returns NoContent
+            </returns>
+            <responce code="204">Success</responce>
+            <responce code="401">If the user is unauthorized</responce>
+        </member>
+        <member name="T:InfinBank.WebApi.DependencyInjection">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.DependencyInjection.AddWebServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+             <summary>
+            
+             </summary>
+             <param name="services"></param>
+             <param name="_configuration"></param>
+             <returns></returns>
+        </member>
+        <member name="T:InfinBank.WebApi.AuthResponsesOperationFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.AuthResponsesOperationFilter.Apply(Microsoft.OpenApi.Models.OpenApiOperation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Middleware.CustomExceptionHandlerMiddleware">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Middleware.CustomExceptionHandlerMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Middleware.CustomExceptionHandlerMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Middleware.CustomExceptionHandlerMiddlewareExstentions">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Middleware.CustomExceptionHandlerMiddlewareExstentions.UseCustomeExceptionHandler(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.AuthManager.AuthResult">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.AuthResult.Token">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.AuthResult.RefreshTokenn">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.AuthResult.Result">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.AuthResult.Message">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.Token">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.UserId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.JwtId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.IsUsed">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.IsRevoked">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.AddedDateTime">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.ExpiryDateTime">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.AuthManager.RefreshTokenDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.AuthManager.TokenRequest">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.TokenRequest.Token">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.TokenRequest.RefreshToken">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.AuthManager.UserLoginDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.UserLoginDto.Email">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.UserLoginDto.Password">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.AuthManager.UserRegisterDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.UserRegisterDto.Name">
+            <summary>
+            User Name
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.UserRegisterDto.Email">
+            <summary>
+            User Email
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.AuthManager.UserRegisterDto.Password">
+            <summary>
+            User Password
+            </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.CreateCircleCircumferenceDto">
+            <summary>
+            CreateCircleCircumferenceDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateCircleCircumferenceDto.Radius">
+            <summary>
+            Radius
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.CreateCircleCircumferenceDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.CreateCircleSquareDto">
+             <summary>
+            Class CreateCircleSquareDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateCircleSquareDto.Radius">
+            <summary>
+            Radius of circle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.CreateCircleSquareDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.UpdateCircleCircumferenceDto">
+            <summary>
+            UpdateCircleSquareDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateCircleCircumferenceDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateCircleCircumferenceDto.Radius">
+            <summary>
+            Radius of circle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.UpdateCircleCircumferenceDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.UpdateCircleSquareDto">
+            <summary>
+            UpdateCircleSquareDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateCircleSquareDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateCircleSquareDto.Radius">
+            <summary>
+            Radius of circle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.UpdateCircleSquareDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.CreateRectanglePerimeterDto">
+            <summary>
+            CreateCircleCircumferenceDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateRectanglePerimeterDto.Length">
+            <summary>
+            Length of rectangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateRectanglePerimeterDto.Width">
+            <summary>
+            Width of rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.CreateRectanglePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.CreateRectangleSquareDto">
+             <summary>
+            Class CreateCircleSquareDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateRectangleSquareDto.Length">
+            <summary>
+            Length of rectangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.CreateRectangleSquareDto.Width">
+            <summary>
+            Width of rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.CreateRectangleSquareDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto">
+            <summary>
+            UpdateCircleSquareDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto.Length">
+            <summary>
+            Length of rectangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto.Width">
+            <summary>
+            Width of rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.UpdateRectanglePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto">
+            <summary>
+            UpdateCircleSquareDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto.Length">
+            <summary>
+            Length of rectangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto.Width">
+            <summary>
+            Width of rectangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.UpdateRectangleSquareDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Circles.UpdateSquarePerimeterDto">
+             <summary>
+            Class UpdateSquarePerimeterDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateSquarePerimeterDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Circles.UpdateSquarePerimeterDto.Side">
+            <summary>
+            Side of square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Circles.UpdateSquarePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Configurations.JwtConfig">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Configurations.JwtConfig.Secret">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Configurations.JwtConfig.ExpiryTimeFrame">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.RoleManager.CreateRoleDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.RoleManager.CreateRoleDto.Name">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.RoleManager.CreateRoleDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.RoleManager.UpdateRoleDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.RoleManager.UpdateRoleDto.Id">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.RoleManager.UpdateRoleDto.Name">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.RoleManager.UpdateRoleDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Squares.CreateSquareAreaDto">
+             <summary>
+            Class CreateSquareAreaDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.CreateSquareAreaDto.Side">
+            <summary>
+            Side of square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Squares.CreateSquareAreaDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Squares.CreateSquarePerimeterDto">
+             <summary>
+            Class CreateSquarePerimeterDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.CreateSquarePerimeterDto.Side">
+            <summary>
+            Side of square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Squares.CreateSquarePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Squares.UpdateSquareAreaDto">
+            <summary>
+            Class UpdateSquareAreaDto
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.UpdateSquareAreaDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.UpdateSquareAreaDto.Side">
+            <summary>
+            Side of square
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Squares.UpdateSquareAreaDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto">
+             <summary>
+            Class CreateSquareAreaDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto.ASide">
+            <summary>
+            A side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto.BSide">
+            <summary>
+            B side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto.CSide">
+            <summary>
+            C side of triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Squares.CreateTriangleAreaDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto">
+             <summary>
+            Class CreateSquarePerimeterDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto.ASide">
+            <summary>
+            A side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto.BSide">
+            <summary>
+            B side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto.CSide">
+            <summary>
+            C side of triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Triangles.CreateTrianglePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto">
+             <summary>
+            Class UpdateTriangleAreaDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto.ASide">
+            <summary>
+            A side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto.BSide">
+            <summary>
+            B side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto.CSide">
+            <summary>
+            C side of triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Triangles.UpdateTriangleAreaDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto">
+             <summary>
+            Class UpdateTrianglePerimeterDto
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto.ASide">
+            <summary>
+            A side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto.BSide">
+            <summary>
+            B side of triangle
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto.CSide">
+            <summary>
+            C side of triangle
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.Triangles.UpdateTrianglePerimeterDto.Mapping(AutoMapper.Profile)">
+            <summary>
+            Mapping
+            </summary>
+            <param name="profile"></param>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.AddToRoleDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.AddToRoleDto.RoleId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.AddToRoleDto.UserId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.AddToRoleDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.CreateUserDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.FirstName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.LastName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.UserName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.Email">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.PhoneNumber">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.Address">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.RoleName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.CreateUserDto.PasswordHash">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.CreateUserDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.DeleteFromRoleDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.DeleteFromRoleDto.RoleId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.DeleteFromRoleDto.UserId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.DeleteFromRoleDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.UpdatePasswordDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdatePasswordDto.UserId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdatePasswordDto.PasswordHash">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.UpdatePasswordDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.UpdateUserDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.Id">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.FirstName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.LastName">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.Email">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.Address">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserDto.PhoneNumber">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.UpdateUserDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebApi.Models.UserManager.UpdateUserRoleDto">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserRoleDto.UserId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserRoleDto.NewRoleId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="P:InfinBank.WebApi.Models.UserManager.UpdateUserRoleDto.OldRoleId">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="M:InfinBank.WebApi.Models.UserManager.UpdateUserRoleDto.Mapping(AutoMapper.Profile)">
+             <summary>
+            
+             </summary>
+        </member>
+        <member name="T:InfinBank.WebAPI.Services.CurrentUserService">
+            <summary>
+            CurrentUserService
+            </summary>
+        </member>
+        <member name="M:InfinBank.WebAPI.Services.CurrentUserService.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            CurrentUserService
+            </summary>
+        </member>
+        <member name="P:InfinBank.WebAPI.Services.CurrentUserService.UserId">
+            <summary>
+            UserId of Current logged user
+            </summary>
+        </member>
+    </members>
+</doc>
