@@ -2,11 +2,11 @@
 Тестовые пользователи для выполнение "endpoint"ов
 
 Admin 
-	Login: admin@gmail.com
-	Password: Qwertyruru20@@
+	* Login: admin@gmail.com
+	* Password: Qwertyruru20@@
 User 
-	Login: user@gmail.com
-	Password: Qwertyruru20@@
+	* Login: user@gmail.com
+	* Password: Qwertyruru20@@
 
 Вычисления площади и периметра фигур
 Вводные данные
