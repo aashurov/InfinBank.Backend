@@ -1,5 +1,5 @@
 # InfinBank.Backend
-Тестовый пользователи для выполнение "endpoint"ов
+Пользователи для выполнение "endpoint"ов
 
 Admin 
 	Login: admin@gmail.com
