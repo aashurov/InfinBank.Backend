@@ -1,10 +1,10 @@
 # InfinBank.Backend
 Тестовые пользователи для выполнение "endpoint"ов
 
-Admin 
+- Admin 
 	* Login: admin@gmail.com
 	* Password: Qwertyruru20@@
-User 
+- User 
 	* Login: user@gmail.com
 	* Password: Qwertyruru20@@
 
