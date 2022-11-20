@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InfinBank.Application
-build_property.ProjectDir = /Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Application/
+build_property.ProjectDir = \\Mac\Home\Desktop\MyProjects\InfinBank.Backend\InfinBank.Application\

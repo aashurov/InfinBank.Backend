@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Domain/InfinBank.Domain.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\MyProjects\\InfinBank.Backend\\InfinBank.Domain\\InfinBank.Domain.csproj": {}
   },
   "projects": {
-    "/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Domain/InfinBank.Domain.csproj": {
+    "\\\\Mac\\Home\\Desktop\\MyProjects\\InfinBank.Backend\\InfinBank.Domain\\InfinBank.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Domain/InfinBank.Domain.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\MyProjects\\InfinBank.Backend\\InfinBank.Domain\\InfinBank.Domain.csproj",
         "projectName": "InfinBank.Domain",
-        "projectPath": "/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Domain/InfinBank.Domain.csproj",
-        "packagesPath": "/Users/a_ashurov/.nuget/packages/",
-        "outputPath": "/Users/a_ashurov/Desktop/MyProjects/InfinBank.Backend/InfinBank.Domain/obj/",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\MyProjects\\InfinBank.Backend\\InfinBank.Domain\\InfinBank.Domain.csproj",
+        "packagesPath": "C:\\Users\\a_ashurov\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\MyProjects\\InfinBank.Backend\\InfinBank.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/a_ashurov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\a_ashurov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 3.6.0\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
         }
       }
     }
